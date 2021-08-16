@@ -1,0 +1,42 @@
+@media only screen and (max-width: 768px) {
+
+    header .social-media {
+        display: none;
+    }
+
+    main .about-moonchain .authors {
+        flex-wrap: wrap;
+    }
+
+    main .about-moonchain .authors .author {
+        width: 100%;
+        max-width: 370px;
+        margin: auto;
+    }
+
+
+
+}
+
+
+
+@media only screen and (max-width: 992px) {
+
+
+    main .first-section .first-section-content .left h1 {
+        font-size: 30px;
+    }
+
+    main .first-section .first-section-content p {
+        width: 170px;
+    }
+
+    main .first-section .first-section-content {
+        padding-bottom: 65px;
+    }
+
+    header .d-flex {
+        width: 100%;
+    }
+
+}

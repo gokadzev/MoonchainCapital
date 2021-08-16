@@ -1,0 +1,281 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    margin: 0% 5%;
+}
+
+button:focus {
+    box-shadow: 1px;
+}
+
+
+.first-section, .contact-area, .services-list, .FAQ-area-content,  .news-area, footer {
+    margin: 0% 15%;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    color: #842AE3;
+}
+
+section {
+    padding: 5% 0%;
+}
+
+
+header .d-flex {
+    width: 50%;
+    text-align: center;
+}
+
+header .social-media {
+    margin-left: 40px;
+}
+
+header .navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+header .navbar-brand h1 {
+    font-size: 22px;
+    margin-left: 10px;
+}
+
+header .navbar-light .navbar-nav .nav-link {
+    color: black;
+}
+
+main {
+    overflow-x: hidden;
+}
+
+main .first-section {
+    margin: 0px auto;
+    padding:0px;
+}
+
+main .first-section .first-section-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main .first-section .first-section-content .left {
+    width: 20%;
+}
+
+main .first-section .first-section-content .right {
+    width: 43%;
+
+    animation: appearEffect 0.8s;
+}
+
+main .first-section .first-section-content .right img {
+    width: 100%;
+    max-width: 632px;
+}
+
+main .first-section .first-section-content .left h1 {
+    font-size: 50px;
+}
+
+main .first-section button a {
+    text-decoration: none;
+    color: white;
+}
+
+main .first-section button, .about-services button{
+    border: none;
+    background-color: #842AE3;
+    width: 140px;
+    height: 45px;
+    border-radius: 50px;
+    color: white;
+    font-size: 14px;
+}
+
+main .about-services button {
+    width: 150px;
+}
+
+main .about-services button a {
+    text-decoration: none;
+    color: white;
+}
+
+main .first-section button:hover, .about-services button:hover {
+    background-color: #aa6cec;
+}
+
+main .about-services {
+    background-color: #EEEEEE;
+    text-align: center;
+}
+
+main .about-services h1 {
+    font-size: 28px;
+}
+
+main .about-moonchain {
+    margin: 0% 4%;
+    text-align: center;
+}
+
+main .about-moonchain .authors .author {
+    margin: 0px 1%;
+}
+
+main .about-moonchain .authors .author h1 {
+    font-size: 22px;
+}
+
+main .about-moonchain .authors {
+    display: flex;
+    justify-content: space-between;
+}
+
+main .about-moonchain .authors .author img {
+    width: 100%;
+}
+
+main .about-services .services-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+main .about-services .service-card {
+    width: 100%;
+    max-width: 326px;
+}
+
+main .about-services .service-card h1 {
+    font-size: 20px;
+}
+
+.contact-area input[type="text"]:focus, .contact-area input[type="email"]:focus, .textarea-area textarea:focus {
+    outline: none;
+    background-color: #f0e4fd;
+    box-shadow: none;
+}
+
+main .contact-area button {
+    width: 100%;
+    height: 50px;
+}
+
+main .contact-area  .contact-fill-area form .mb-3 {
+    margin-top: 2%;
+}
+
+main .contact-area input::placeholder,.contact-area textarea::placeholder {
+    color: black;
+}
+
+main .contact-area .textarea-area {
+    margin: 2% auto;
+}
+
+main .contact-area .textarea-area textarea {
+    height: 100px;
+}
+
+
+main .contact-area h1, .news-area h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+main .contact-area input,.contact-area textarea, .news-area input {
+    border: 1px solid white;
+    border-bottom: 1px solid black;
+    border-radius: 0px;
+}
+
+main .contact-area input:hover,.contact-area textarea:hover, .news-area input:hover {
+    border: 1px solid black!important;
+}
+
+
+
+main .FAQ-area {
+    background-color: #EEEEEE;
+    text-align: center;
+}
+
+main .FAQ-area .questions-list {
+    text-align: left;
+}
+
+main .FAQ-area .questions-list .question p {
+    margin-top:50px;
+}
+
+
+main .FAQ-area .questions-list h1 {
+    font-size: 22px;
+}
+
+
+main .reviews-area {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    background-color: #27F5CE;
+    width: 100%;
+    height: 520px;
+}
+
+main .reviews-area .carousel-item img {
+    margin:auto;
+}
+
+main .reviews-area .carousel-item-content {
+    text-align: center;
+}
+
+footer {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+
+
+footer h2 {
+    font-size: 22px;
+}
+
+footer p {
+    font-size: 15px;
+}
+
+
+.social-media {
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.social-media a {
+    color: black;
+}
+
+.social-media a:hover {
+    color: black;
+}
+
+
+
+@keyframes appearEffect {
+    form {
+        
+    }
+}
