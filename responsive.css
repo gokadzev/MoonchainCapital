@@ -1,5 +1,13 @@
 @media only screen and (max-width: 768px) {
 
+    header .navbar-brand img {
+        width: 10vw;
+    }
+
+    header .navbar-brand h1 {
+        font-size: 4vw;
+    }
+
     header .social-media {
         display: none;
     }
@@ -21,22 +29,15 @@
 
 
 @media only screen and (max-width: 992px) {
-
-
     main .first-section .first-section-content .left h1 {
-        font-size: 30px;
+        font-size: 6vw;
     }
 
     main .first-section .first-section-content p {
-        width: 170px;
-    }
-
-    main .first-section .first-section-content {
-        padding-bottom: 65px;
+        font-size: 3vw;
     }
 
     header .d-flex {
         width: 100%;
     }
-
 }
